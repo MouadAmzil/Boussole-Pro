@@ -21,6 +21,7 @@ header video {
     background-position: absolute;
     z-index: 9;
     object-fit: cover;
+    font-family: 'object-fit: cover;';
 }
 
 header .content {
