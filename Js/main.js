@@ -39,10 +39,16 @@ $("#tpbtn").on('click',function(){
 });
     $(".nav-link").removeClass("active");
     $(".nav-link").click(function (e) { 
-        e.preventDefault();
+        // e.preventDefault();
         $(".nav-link").removeClass("active");
         $(this).addClass("active");
     });
+
+
+
+
+
+
 });
 
 

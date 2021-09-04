@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Boussole Pro</title>
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@MouadAmzil" />
+  <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+  <meta name="twitter:description" content="View the album on Flickr." />
+  <meta name="twitter:image" content="img/lo.png" />
+
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Css/bootstrap.min.css">
@@ -26,19 +33,19 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav  ml-auto">
           <li class="nav-item ">
-            <a class="nav-link active" href="#"><i class="fa-fw fab fa-black-tie"></i> Notre mission</a>
+            <a class="nav-link active"  href="#noterMission" data-level="1" role="menuitem"><i class="fa-fw fab fa-black-tie"></i> Notre mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> <i class="fa-fw fas fa-boxes"></i> Services</a>
+            <a class="nav-link" href="#Services"> <i class="fa-fw fas fa-boxes"></i> Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="ffa-fw fas fa-comment-dollar"></i> Abonnement</a>
+            <a class="nav-link" href="#Abonnement"><i class="ffa-fw fas fa-comment-dollar"></i> Abonnement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-fw fas fa-quote-left"></i> Témoignages</a>
+            <a class="nav-link" href="#Temoignages"><i class="fa-fw fas fa-quote-left"></i> Témoignages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+            <a class="nav-link" href="#Contact"><i class="fas fa-envelope"></i> Contact</a>
           </li>
         </ul>
       </div>
@@ -122,7 +129,7 @@
   </div>
   <!--Mission-->
 
-  <div class="mission text-center">
+  <div class="mission text-center" id="noterMission">
     <div class="container">
       <i class="fas fa-cogs fa-2x"></i>
       <h1>Notre mission</h1>
@@ -207,7 +214,7 @@
 
 
   <!--Start Section Services -->
-  <section id="service" class="service">
+  <section id="Services" class="service">
     <div class="container">
       <h2 class="display-5 text-center">Nos services</h2>
       <!--Start Ser Box -->
@@ -433,7 +440,7 @@
 
 
     <!--Pricing table-->
-    <div class="pricing-table text-center">
+    <div class="pricing-table text-center" id="Abonnement">
       <div class="container">
         <i class="fas fa-euro-sign fa-2x"></i>
         <h2 class="text-uppercase">Abonnement</h2>
@@ -549,14 +556,6 @@
                     }
                   }).render('#paypal-button-container-P-0RJ31203P6125151SMCSQ5PA'); // Renders the PayPal button
                 </script>
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>
@@ -648,7 +647,7 @@
 
   <!--TestMonial-->
 
-  <section class="testimonial text-center">
+  <section class="testimonial text-center" id="Temoignages">
     <div class="container-fluid">
 
       <div class="heading white-heading">
@@ -788,7 +787,7 @@
 
 
   <!--Contact-->
-  <div class="contacte">
+  <div class="contacte" id="Contact">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
